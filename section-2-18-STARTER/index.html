@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <title>VueJS Course</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <label>
+      <input type="checkbox" v-model="isPurple" /> Purple
+    </label>
+
+    <div class="circle" :class=" {purple:isPurple} ">
+      Hi!
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
