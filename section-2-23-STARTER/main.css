@@ -39,3 +39,7 @@ body {
   font-size: 1em;
   padding: 5px 10px;
 }
+
+[v-cloak]{
+  display: none;
+}
